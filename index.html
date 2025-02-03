@@ -1,0 +1,504 @@
+<!----------------------
+WIP d'un très très gros projet que je travaille depuis plusieurs mois <3
+Merci à tout ceux qui ont contribué à l'inspiration de ce design notamment le staff de FLN.
+
+I suck at colors
+I suck at layout
+Send help.
+
+Do not copy. If you want to use it as inspiration i don't mind.
+
+insp:
+works from Pharaoh Leap
+https://codepen.io/pharaohleap/full/qBKypxK
+Marta Gawin 
+https://www.behance.net/gallery/173277607/Virtual-Heritage?tracking_source=curated_galleries_ui-ux
+Igor Vensko (choix de polices - Font choices)
+https://www.behance.net/gallery/147114137/Luxury-Travel-Agency-Luxtripsco
+
+Art : 
+https://www.artstation.com/awanqi
+
+Sur la base du BLANK THEME
+Un GRAND MERCI à Genius Panda pour ses ressources mises en libre service !!!
+---------------------->
+
+<head>  <link href="https://kylas07.github.io/projetchainsaw/FLNV2.css" type="text/css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Forum&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+
+<body> 
+  <header class="forum-header">
+    <div class="header-figure"></div>
+    <div class="header"></div>
+    
+     <div class="forum-titre">
+       <span>Fate<br><span style="color: #1E1E1E;">Last</span> Night</span>
+        </div>
+        
+         <div class="forum-titre detail">
+         <span>Forum de style Dark Fantasy et Urban Fantasy.<br><span style="color:white;background: #1E1E1E;padding: 0px 10px;border-radius: 10px;">Avatars en 200*600.</span></span>
+    
+       </div>
+    <div class="couronne">    
+      <svg width="1000" height="1000"><g><line x1="700" x2="400" y1="350" y2="350"></line><line x1="696.4375046583264" x2="399.4910720940466" y1="399.8101933956498" y2="357.11574191366424"></line><line x1="685.8225407650741" x2="397.97464868072484" y1="448.6063948945004" y2="364.0866278420715"></line><line x1="668.3711983740815" x2="395.4815997677259" y1="495.39525455066024" y2="370.7707506500943"></line><line x1="644.4387364909135" x2="392.06267664155905" y1="539.2242861094592" y2="377.0320408727799"></line><line x1="614.5123510239904" x2="387.78747871771293" y1="579.2012568808498" y2="382.74303669726424"></line><line x1="579.2012568808498" x2="382.74303669726424" y1="614.5123510239904" y2="387.78747871771293"></line><line x1="539.2242861094592" x2="377.0320408727799" y1="644.4387364909134" y2="392.06267664155905"></line><line x1="495.39525455066024" x2="370.7707506500943" y1="668.3711983740814" y2="395.4815997677259"></line><line x1="448.60639489450045" x2="364.0866278420715" y1="685.8225407650741" y2="397.97464868072484"></line><line x1="399.8101933956498" x2="357.11574191366424" y1="696.4375046583264" y2="399.4910720940466"></line><line x1="350" x2="350" y1="700" y2="400"></line><line x1="300.1898066043502" x2="342.88425808633576" y1="696.4375046583265" y2="399.4910720940467"></line><line x1="251.3936051054996" x2="335.9133721579285" y1="685.8225407650741" y2="397.97464868072484"></line><line x1="204.6047454493398" x2="329.2292493499057" y1="668.3711983740815" y2="395.4815997677259"></line><line x1="160.77571389054083" x2="322.9679591272201" y1="644.4387364909134" y2="392.06267664155905"></line><line x1="120.79874311915026" x2="317.25696330273576" y1="614.5123510239904" y2="387.78747871771293"></line><line x1="85.48764897600967" x2="312.21252128228707" y1="579.2012568808498" y2="382.74303669726424"></line><line x1="55.56126350908664" x2="307.93732335844095" y1="539.2242861094592" y2="377.0320408727799"></line><line x1="31.628801625918527" x2="304.5184002322741" y1="495.3952545506602" y2="370.7707506500943"></line><line x1="14.177459234925948" x2="302.02535131927516" y1="448.6063948945004" y2="364.0866278420715"></line><line x1="3.562495341673582" x2="300.5089279059534" y1="399.81019339564983" y2="357.11574191366424"></line><line x1="0" x2="300" y1="350.00000000000006" y2="350"></line><line x1="3.562495341673525" x2="300.5089279059533" y1="300.1898066043503" y2="342.88425808633576"></line><line x1="14.177459234925891" x2="302.0253513192751" y1="251.39360510549972" y2="335.9133721579285"></line><line x1="31.628801625918584" x2="304.5184002322741" y1="204.60474544933973" y2="329.2292493499057"></line><line x1="55.56126350908659" x2="307.93732335844095" y1="160.77571389054086" y2="322.9679591272201"></line><line x1="85.48764897600955" x2="312.21252128228707" y1="120.79874311915026" y2="317.25696330273576"></line><line x1="120.79874311915017" x2="317.25696330273576" y1="85.48764897600967" y2="312.21252128228707"></line><line x1="160.77571389054089" x2="322.9679591272201" y1="55.56126350908659" y2="307.93732335844095"></line><line x1="204.60474544933976" x2="329.2292493499057" y1="31.628801625918527" y2="304.5184002322741"></line><line x1="251.3936051054996" x2="335.9133721579285" y1="14.177459234925948" y2="302.02535131927516"></line><line x1="300.18980660435017" x2="342.88425808633576" y1="3.562495341673582" y2="300.5089279059534"></line><line x1="349.99999999999994" x2="350" y1="0" y2="300"></line><line x1="399.8101933956497" x2="357.11574191366424" y1="3.562495341673525" y2="300.5089279059533"></line><line x1="448.6063948945003" x2="364.0866278420715" y1="14.177459234925891" y2="302.0253513192751"></line><line x1="495.3952545506601" x2="370.7707506500943" y1="31.628801625918527" y2="304.5184002322741"></line><line x1="539.224286109459" x2="377.0320408727799" y1="55.56126350908647" y2="307.93732335844095"></line><line x1="579.2012568808499" x2="382.74303669726424" y1="85.48764897600967" y2="312.21252128228707"></line><line x1="614.5123510239905" x2="387.78747871771293" y1="120.79874311915029" y2="317.25696330273576"></line><line x1="644.4387364909135" x2="392.06267664155905" y1="160.77571389054089" y2="322.9679591272201"></line><line x1="668.3711983740814" x2="395.4815997677259" y1="204.60474544933976" y2="329.2292493499057"></line><line x1="685.8225407650741" x2="397.97464868072484" y1="251.39360510549957" y2="335.9133721579285"></line><line x1="696.4375046583264" x2="399.4910720940466" y1="300.1898066043501" y2="342.88425808633576"></line></g></svg></div>
+  </header>
+  <div class="barre-h"> <div class="accordion"><button id="patoggleButton">Cacher la page d'accueil</button>
+    <span style="border-radius: 10px;
+    padding: 12px;color: rgb(30, 30, 30);
+    background: var(--neutral);"> << faire défiler les pages >></span> <section style="display: grid;place-items: center;font-size: var(--large-size);font-family: var(--title-font);position: relative;">  <div class="dot-container">	               <span class="dot active" onclick="currentSlide(1)"></span>   <span class="dot" onclick="currentSlide(2)"></span>   <span class="dot" onclick="currentSlide(3)"></span>       
+	</div></section>  
+    
+  </div></div>
+  <div class="collapsingpa">  <div class="slideshow-container">
+  <div class="pa_forum fade">
+    <div class="toppa"style="margin: 5rem 0;display: grid;justify-items: center;align-items: center;grid-row: 1;grid-column: 2/5;">
+      <h1>We made plans<br>
+      and god laughed
+    </h1>
+      <formlosange></formlosange>
+      <formlosange></formlosange>
+    </div>
+        <div class="pa_cont"> 
+          <div><h1>Contexte</h1>
+          Alors que le Graal a été démantelé, d’étranges meurtres corrompent les canaux de la Sérénissime. Le Conseil de Venise, autorité suprême de la ville, doit faire face à cette situation alors qu’un mariage prévu entre deux familles du conseil devait mettre fin à plusieurs années de rivalité. L’Association des Mages et la Sainte Eglise ont dépêché leurs éléments afin de résoudre ce mystère; véritable menace pour le Secret de la Magie. Dans l’ombre, les Apôtres de la Mort se nourrissent du chaos. Vous aussi entendez l’appel des muses de la désolation et venez mettre en lumière les secrets qui stagnent dans les abysses de Venise.</div>
+          <span></span>
+    </div>
+    
+    <div class="derniersmsg">
+      
+      <div class="cont_lsm">
+        <span>Derniers<br> messages</span>
+        <div>  
+          <div class="solopost">
+        <div class="ttlepost"> 
+          <a href="/link" target="_blank" title="i've been telling you the same old story">i've been telling you the same old story ft. Eri</a><br></div><div class="posteur"><span style="color:#91BA7D"><strong>Vance Errington</strong></span><br></div><div class="timepost">Aujourd'hui à 16:57</div></div>
+          <div class="solopost">
+        <div class="ttlepost"> 
+          <a href="/link" target="_blank" title="i've been telling you the same old story">this is a romantic disaster the nightmare comes after</a><br></div><div class="posteur"><span style="color:#7d8cba"><strong>Lua Blue</strong></span><br></div><div class="timepost">Aujourd'hui à 14:57</div></div>  
+          <div class="solopost">
+        <div class="ttlepost"> 
+          <a href="/link" target="_blank" title="i've been telling you the same old story">so don't get your hopes up</a><br></div><div class="posteur"><span style="color:#ba7d7d"><strong>Liang Zhao</strong></span><br></div><div class="timepost">Aujourd'hui à 10:57</div></div>
+           <div class="solopost">
+        <div class="ttlepost"> 
+          <a href="/link" target="_blank" title="i've been telling you the same old story">because I'll only lеt you down I don't think I'm good enough for you</a><br></div><div class="posteur"><span style="color:#f7f7f7"><strong>La stalkeuse</strong></span><br></div><div class="timepost">Hier à 16:57</div></div>
+          <div class="solopost">
+        <div class="ttlepost"> 
+          <a href="/link" target="_blank" title="i've been telling you the same old story">i've been telling you the same old story ft. Eri</a><br></div><div class="posteur"><span style="color:#91BA7D"><strong>Vance Errington</strong></span><br></div><div class="timepost">Aujourd'hui à 16:57</div></div>  
+          <div class="solopost">
+        <div class="ttlepost"> 
+          <a href="/link" target="_blank" title="i've been telling you the same old story">i've been telling you the same old story ft. Eri</a><br></div><div class="posteur"><span style="color:#91BA7D"><strong>Vance Errington</strong></span><br></div><div class="timepost">Aujourd'hui à 16:57</div></div>
+          </div>
+      </div>
+      <div class="bgpa"></div>
+      <span></span>
+    </div>
+  </div>
+   <div class="pa_forum numbertwo fade">
+        <div class="pa_contTopic"> 
+          <div>!gestion du forum<h1>Recensement de mai 2023</h1></div>
+          <span></span>
+    </div>   
+    <div class="creditspa">
+      <span>illustrations par Zhimin Gao et Aw anqi. 
+Codage pâr Kylas (mikazuki) sur le support du blank theme par Kim. Contexte et concept de jeu inspirés des oeuvres TYPE-MOON et du Naruverse.</span>
+   <a><div>en savoir +</div></a>
+    </div>
+     <style>
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:9999;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay.active {
+    display: flex;
+  }
+
+  .overlay iframe {
+    width: 80%;
+    height: 80%;
+    border: none;
+  }
+</style>
+
+<div class="staffpa">
+  <span>votre staff<br><mm>pseudo1&amp;pseudo2</mm></span>
+  <a href="#" class="tab-link2" data-tab="1"><img src="https://i.imgur.com/0bvvlny.png" class="tab-image"></a>
+  <a href="#" class="tab-link2" data-tab="2"><img src="https://i.imgur.com/u7r1fmU.png" class="tab-image"></a>
+  <div class="staff_content">
+    blabla je suis un membre du staff je suis fondateur.trice, mon pseudo c’est ceci ou cela et j’aime les pâtes carbos.
+    <span class="pseupa">Moimoi</span>
+  </div>
+</div>
+
+<div class="overlay">
+  <iframe></iframe>
+</div>
+
+<script>
+  const tabLinks2 = document.querySelectorAll('.tab-link2');
+  const overlay = document.querySelector('.overlay');
+  const iframe = overlay.querySelector('iframe');
+
+  const iframeSrcs = {
+    '1': 'https://mikazukitest.forumactif.com/h5-staff1',
+    '2': 'https://mikazukitest.forumactif.com/h6-staff2'
+  };
+
+  tabLinks2.forEach(link => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      const tabNumber = link.getAttribute('data-tab');
+      const iframeSrc = iframeSrcs[tabNumber];
+
+      // Afficher l'overlay avec l'iframe correspondante
+      overlay.classList.add('active');
+      iframe.src = iframeSrc;
+    });
+  });
+
+  overlay.addEventListener('click', () => {
+    // Fermer l'overlay en cliquant dessus
+    overlay.classList.remove('active');
+    iframe.src = '';
+  });
+</script>
+
+      <div class="thxpa">Crédits & remerciements
+        <div style="
+    display: flex;
+    align-items: center;
+    place-self: flex-start;
+    gap: 100px;
+"><img src="https://i.imgur.com/obc1VZX.jpg" style="object-fit: contain;width: 250px;border-radius: 10px;"> <div style="font-size:16px;">votez pour nous ! <div class="dot-container">	               <span class="dot"></span>   <span class="dot active"></span>   <span class="dot"></span>       
+	</div></div></div></div>
+  </div>
+</div></div>
+<div id="wrreap" style="width:1200px; margin: 100px auto;">
+
+<div class="category" id="c4">
+ <div class="forums">
+    <!-- Titre catégorie --><div class="cate_title"><h2>Votre 1ère catégorie</h2></div>
+   <div class="gridcat">
+     <div class="imagecat hidden">
+    </div>
+     <span class="fondcat">
+    </span>
+         <!-- Affichage d'un forum --><div class="forum_row row"><!--
+ Titre forum --><div style="width: 100%; margin-bottom: 10px;"><a href="/f1-votre-1er-forum" class="forumtitle">Votre 1er forum</a><!--
+ Compteur sujets et message --><span class="forum_stats">6 Sujets&nbsp; • &nbsp;14 Messages</span></div><!--
+ Image forum : nouveau, rien, verrouillé --><img class="forum-img" src="https://2img.net/i/fa/empty.gif"><!--
+ Description --><div class="forum_desc">aaaaaaa</div><div class="forum_lastpost-avatar lastpostavatar"><!--
+ Avatar du dernier posteur --><img loading="lazy" src="https://sig.grumpybumpers.com/host/mikazukiyo.gif" alt="testmikazuki Mikazukiyo" style="max-width: 250px; max-height: 400px"></div><!--
+ Conteneur dernier posteur --><div class="forum_lastpost lastpost"><span><!--
+ Dernier sujet --><a href="/t8-presentation-de" title="Présentation de  " class="lastpost_link">Présentation de ...</a><br><!--
+ Auteur -->Lun 27 Fév 2023 - 12:26<br><strong><a href="/u2" class="gensmall">MikaLaTesteuse</a></strong>&nbsp;<a href="/t8-presentation-de#16" class="last-post-icon"><img src="https://2img.net/i/fa/modernbb/icon_topic_latest.png" alt="Voir le dernier message" title="Voir le dernier message" loading="lazy"></a></span></div><div class="forum_details"><!--
+ Liens de sous-forum --><span id="subforum"><a href="/f7-sousforum1" title="" class="gensmall">sousforum1</a>, <a href="/f8-sousforum2" title="" class="gensmall">sousforum2</a>, <a href="/f9-sousforum3" title="" class="gensmall">sousforum3</a></span></div></div><!--
+ Fin affichage d'un forum -->
+   </div>  
+</div><!--
+ Fin liste des forums --></div>  
+  
+<div class="category" id="c1">
+  <div class="numerocat"><div></div></div>
+ <div class="forums">
+    <!-- Titre catégorie --><div class="cate_title"><h2>Votre 1ère catégorie</h2></div>
+   <div class="gridcat">
+     <div class="imagecat hidden">
+    </div>
+     <span class="fondcat">
+    </span>
+         <!-- Affichage d'un forum --><div class="forum_row row"><!--
+ Titre forum --><div style="width: 100%; margin-bottom: 10px;"><a href="/f1-votre-1er-forum" class="forumtitle">Votre 1er forum</a><!--
+ Compteur sujets et message --><span class="forum_stats">6 Sujets&nbsp; • &nbsp;14 Messages</span></div><!--
+ Image forum : nouveau, rien, verrouillé --><img class="forum-img" src="https://2img.net/i/fa/empty.gif"><!--
+ Description --><div class="forum_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis sit amet felis nec porttitor. In hac habitasse platea dictumst. Aenean eu augue pharetra eros ornare pretium eleifend vel nisi. Aliquam lobortis turpis a dignissim consequat. Duis auctor mauris enim, dignissim posuere elit ullamcorper in. Fusce neque arcu, faucibus a tristique eu, eleifend vel ligula. Nunc sodales viverra nibh quis convallis. Vestibulum molestie gravida ligula vel accumsan. Nam at malesuada libero.<br></div><div class="forum_lastpost-avatar lastpostavatar"><!--
+ Avatar du dernier posteur --><img loading="lazy" src="https://sig.grumpybumpers.com/host/mikazukiyo.gif" alt="testmikazuki Mikazukiyo" style="max-width: 250px; max-height: 400px"></div><!--
+ Conteneur dernier posteur --><div class="forum_lastpost lastpost"><span><!--
+ Dernier sujet --><a href="/t8-presentation-de" title="Présentation de  " class="lastpost_link">Présentation de ...</a><br><!--
+ Auteur -->Lun 27 Fév 2023 - 12:26<br><strong><a href="/u2" class="gensmall">MikaLaTesteuse</a></strong>&nbsp;<a href="/t8-presentation-de#16" class="last-post-icon"><img src="https://2img.net/i/fa/modernbb/icon_topic_latest.png" alt="Voir le dernier message" title="Voir le dernier message" loading="lazy"></a></span></div><div class="forum_details"><!--
+ Liens de sous-forum --><span id="subforum"><a href="/f7-sousforum1" title="" class="gensmall">sousforum1</a>, <a href="/f8-sousforum2" title="" class="gensmall">sousforum2</a>, <a href="/f9-sousforum3" title="" class="gensmall">sousforum3</a></span></div></div><!--
+ Fin affichage d'un forum -->         <!-- Affichage d'un forum --><div class="forum_row row"><!--
+ Titre forum --><div style="width: 100%; margin-bottom: 10px;"><a href="/f1-votre-1er-forum" class="forumtitle">Votre 1er forum</a><!--
+ Compteur sujets et message --><span class="forum_stats">6 Sujets&nbsp; • &nbsp;14 Messages</span></div><!--
+ Image forum : nouveau, rien, verrouillé --><img class="forum-img" src="https://2img.net/i/fa/empty.gif"><!--
+ Description --><div class="forum_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis sit amet felis nec porttitor. In hac habitasse platea dictumst. Aenean eu augue pharetra eros ornare pretium eleifend vel nisi. Aliquam lobortis turpis a dignissim consequat. Duis auctor mauris enim, dignissim posuere elit ullamcorper in. Fusce neque arcu, faucibus a tristique eu, eleifend vel ligula. Nunc sodales viverra nibh quis convallis. Vestibulum molestie gravida ligula vel accumsan. Nam at malesuada libero.<br></div><div class="forum_lastpost-avatar lastpostavatar"><!--
+ Avatar du dernier posteur --><img loading="lazy" src="https://sig.grumpybumpers.com/host/mikazukiyo.gif" alt="testmikazuki Mikazukiyo" style="max-width: 250px; max-height: 400px"></div><!--
+ Conteneur dernier posteur --><div class="forum_lastpost lastpost"><span><!--
+ Dernier sujet --><a href="/t8-presentation-de" title="Présentation de  " class="lastpost_link">Présentation de ...</a><br><!--
+ Auteur -->Lun 27 Fév 2023 - 12:26<br><strong><a href="/u2" class="gensmall">MikaLaTesteuse</a></strong>&nbsp;<a href="/t8-presentation-de#16" class="last-post-icon"><img src="https://2img.net/i/fa/modernbb/icon_topic_latest.png" alt="Voir le dernier message" title="Voir le dernier message" loading="lazy"></a></span></div><div class="forum_details"><!--
+ Liens de sous-forum --><span id="subforum"><a href="/f7-sousforum1" title="" class="gensmall">sousforum1</a>, <a href="/f8-sousforum2" title="" class="gensmall">sousforum2</a>, <a href="/f9-sousforum3" title="" class="gensmall">sousforum3</a></span></div></div><!--
+ Fin affichage d'un forum -->
+   </div>  
+</div><!--
+ Fin liste des forums --></div> 
+
+    
+<div class="category" id="c2">
+  <div class="numerocat"><div></div></div>
+ <div class="forums">
+    <!-- Titre catégorie --><div class="cate_title"><h2>Votre 1ère catégorie</h2></div>
+   <div class="gridcat">
+     <div class="imagecat hidden">
+    </div>
+     <span class="fondcat">
+    </span>
+         <!-- Affichage d'un forum --><div class="forum_row row"><!--
+ Titre forum --><div style="width: 100%; margin-bottom: 10px;"><a href="/f1-votre-1er-forum" class="forumtitle">Votre 1er forum</a><!--
+ Compteur sujets et message --><span class="forum_stats">6 Sujets&nbsp; • &nbsp;14 Messages</span></div><!--
+ Image forum : nouveau, rien, verrouillé --><img class="forum-img" src="https://2img.net/i/fa/empty.gif"><!--
+ Description --><div class="forum_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis sit amet felis nec porttitor. In hac habitasse platea dictumst. Aenean eu augue pharetra eros ornare pretium eleifend vel nisi. Aliquam lobortis turpis a dignissim consequat. Duis auctor mauris enim, dignissim posuere elit ullamcorper in. Fusce neque arcu, faucibus a tristique eu, eleifend vel ligula. Nunc sodales viverra nibh quis convallis. Vestibulum molestie gravida ligula vel accumsan. Nam at malesuada libero.<br></div><div class="forum_lastpost-avatar lastpostavatar"><!--
+ Avatar du dernier posteur --><img loading="lazy" src="https://sig.grumpybumpers.com/host/mikazukiyo.gif" alt="testmikazuki Mikazukiyo" style="max-width: 250px; max-height: 400px"></div><!--
+ Conteneur dernier posteur --><div class="forum_lastpost lastpost"><span><!--
+ Dernier sujet --><a href="/t8-presentation-de" title="Présentation de  " class="lastpost_link">Présentation de ...</a><br><!--
+ Auteur -->Lun 27 Fév 2023 - 12:26<br><strong><a href="/u2" class="gensmall">MikaLaTesteuse</a></strong>&nbsp;<a href="/t8-presentation-de#16" class="last-post-icon"><img src="https://2img.net/i/fa/modernbb/icon_topic_latest.png" alt="Voir le dernier message" title="Voir le dernier message" loading="lazy"></a></span></div><div class="forum_details"><!--
+ Liens de sous-forum --><span id="subforum"><a href="/f7-sousforum1" title="" class="gensmall">sousforum1</a>, <a href="/f8-sousforum2" title="" class="gensmall">sousforum2</a>, <a href="/f9-sousforum3" title="" class="gensmall">sousforum3</a></span></div></div><!--
+ Fin affichage d'un forum -->         <!-- Affichage d'un forum --><div class="forum_row row"><!--
+ Titre forum --><div style="width: 100%; margin-bottom: 10px;"><a href="/f1-votre-1er-forum" class="forumtitle">Votre 1er forum</a><!--
+ Compteur sujets et message --><span class="forum_stats">6 Sujets&nbsp; • &nbsp;14 Messages</span></div><!--
+ Image forum : nouveau, rien, verrouillé --><img class="forum-img" src="https://2img.net/i/fa/empty.gif"><!--
+ Description --><div class="forum_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis sit amet felis nec porttitor. In hac habitasse platea dictumst. Aenean eu augue pharetra eros ornare pretium eleifend vel nisi. Aliquam lobortis turpis a dignissim consequat. Duis auctor mauris enim, dignissim posuere elit ullamcorper in. Fusce neque arcu, faucibus a tristique eu, eleifend vel ligula. Nunc sodales viverra nibh quis convallis. Vestibulum molestie gravida ligula vel accumsan. Nam at malesuada libero.<br></div><div class="forum_lastpost-avatar lastpostavatar"><!--
+ Avatar du dernier posteur --><img loading="lazy" src="https://sig.grumpybumpers.com/host/mikazukiyo.gif" alt="testmikazuki Mikazukiyo" style="max-width: 250px; max-height: 400px"></div><!--
+ Conteneur dernier posteur --><div class="forum_lastpost lastpost"><span><!--
+ Dernier sujet --><a href="/t8-presentation-de" title="Présentation de  " class="lastpost_link">Présentation de ...</a><br><!--
+ Auteur -->Lun 27 Fév 2023 - 12:26<br><strong><a href="/u2" class="gensmall">MikaLaTesteuse</a></strong>&nbsp;<a href="/t8-presentation-de#16" class="last-post-icon"><img src="https://2img.net/i/fa/modernbb/icon_topic_latest.png" alt="Voir le dernier message" title="Voir le dernier message" loading="lazy"></a></span></div><div class="forum_details"><!--
+ Liens de sous-forum --><span id="subforum"><a href="/f7-sousforum1" title="" class="gensmall">sousforum1</a>, <a href="/f8-sousforum2" title="" class="gensmall">sousforum2</a>, <a href="/f9-sousforum3" title="" class="gensmall">sousforum3</a></span></div></div><!--
+ Fin affichage d'un forum -->
+   </div>  
+</div><!--
+ Fin liste des forums --></div> 
+
+
+<div class="category" id="c3"><div class="numerocat"><div></div></div><!--
+ Conteneur liste des forums --><div class="forums"><!--
+ Titre catégorie --><div class="cate_title"><h2>CAT 3</h2></div><div class="gridcat"><div class="imagecat hidden"></div><span class="fondcat"></span>         <!-- Affichage d'un forum --><div class="forum_row row"><!--
+ Titre forum --><div style="width: 100%; margin-bottom: 10px;"><a href="/f1-votre-1er-forum" class="forumtitle">Votre 1er forum</a><!--
+ Compteur sujets et message --><span class="forum_stats">6 Sujets&nbsp; • &nbsp;14 Messages</span></div><!--
+ Image forum : nouveau, rien, verrouillé --><img class="forum-img" src="https://2img.net/i/fa/empty.gif"><!--
+ Description --><div class="forum_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis sit amet felis nec porttitor. In hac habitasse platea dictumst. Aenean eu augue pharetra eros ornare pretium eleifend vel nisi. Aliquam lobortis turpis a dignissim consequat. Duis auctor mauris enim, dignissim posuere elit ullamcorper in. Fusce neque arcu, faucibus a tristique eu, eleifend vel ligula. Nunc sodales viverra nibh quis convallis. Vestibulum molestie gravida ligula vel accumsan. Nam at malesuada libero.<br></div><div class="forum_lastpost-avatar lastpostavatar"><!--
+ Avatar du dernier posteur --><img loading="lazy" src="https://sig.grumpybumpers.com/host/mikazukiyo.gif" alt="testmikazuki Mikazukiyo" style="max-width: 250px; max-height: 400px"></div><!--
+ Conteneur dernier posteur --><div class="forum_lastpost lastpost"><span><!--
+ Dernier sujet --><a href="/t8-presentation-de" title="Présentation de  " class="lastpost_link">Présentation de ...</a><br><!--
+ Auteur -->Lun 27 Fév 2023 - 12:26<br><strong><a href="/u2" class="gensmall">MikaLaTesteuse</a></strong>&nbsp;<a href="/t8-presentation-de#16" class="last-post-icon"><img src="https://2img.net/i/fa/modernbb/icon_topic_latest.png" alt="Voir le dernier message" title="Voir le dernier message" loading="lazy"></a></span></div><div class="forum_details"><!--
+ Liens de sous-forum --><span id="subforum"><a href="/f7-sousforum1" title="" class="gensmall">sousforum1</a>, <a href="/f8-sousforum2" title="" class="gensmall">sousforum2</a>, <a href="/f9-sousforum3" title="" class="gensmall">sousforum3</a></span></div></div><!--
+ Fin affichage d'un forum -->
+  <!-- Affichage d'un forum --><div class="forum_row row"><!--
+ Titre forum --><div style="width: 100%; margin-bottom: 10px;"><a href="/f1-votre-1er-forum" class="forumtitle">Votre 1er forum</a><!--
+ Compteur sujets et message --><span class="forum_stats">6 Sujets&nbsp; • &nbsp;14 Messages</span></div><!--
+ Image forum : nouveau, rien, verrouillé --><img class="forum-img" src="https://2img.net/i/fa/empty.gif"><!--
+ Description --><div class="forum_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis sit amet felis nec porttitor. In hac habitasse platea dictumst. Aenean eu augue pharetra eros ornare pretium eleifend vel nisi. Aliquam lobortis turpis a dignissim consequat. Duis auctor mauris enim, dignissim posuere elit ullamcorper in. Fusce neque arcu, faucibus a tristique eu, eleifend vel ligula. Nunc sodales viverra nibh quis convallis. Vestibulum molestie gravida ligula vel accumsan. Nam at malesuada libero.<br></div><div class="forum_lastpost-avatar lastpostavatar"><!--
+ Avatar du dernier posteur --><img loading="lazy" src="https://sig.grumpybumpers.com/host/mikazukiyo.gif" alt="testmikazuki Mikazukiyo" style="max-width: 250px; max-height: 400px"></div><!--
+ Conteneur dernier posteur --><div class="forum_lastpost lastpost"><span><!--
+ Dernier sujet --><a href="/t8-presentation-de" title="Présentation de  " class="lastpost_link">Présentation de ...</a><br><!--
+ Auteur -->Lun 27 Fév 2023 - 12:26<br><strong><a href="/u2" class="gensmall">MikaLaTesteuse</a></strong>&nbsp;<a href="/t8-presentation-de#16" class="last-post-icon"><img src="https://2img.net/i/fa/modernbb/icon_topic_latest.png" alt="Voir le dernier message" title="Voir le dernier message" loading="lazy"></a></span></div><div class="forum_details"><!--
+ Liens de sous-forum --><span id="subforum"><a href="/f7-sousforum1" title="" class="gensmall">sousforum1</a>, <a href="/f8-sousforum2" title="" class="gensmall">sousforum2</a>, <a href="/f9-sousforum3" title="" class="gensmall">sousforum3</a></span></div></div><!--
+ Fin affichage d'un forum -->         <!-- Affichage d'un forum --><div class="forum_row row"><!--
+ Titre forum --><div style="width: 100%; margin-bottom: 10px;"><a href="/f1-votre-1er-forum" class="forumtitle">Votre 1er forum</a><!--
+ Compteur sujets et message --><span class="forum_stats">6 Sujets&nbsp; • &nbsp;14 Messages</span></div><!--
+ Image forum : nouveau, rien, verrouillé --><img class="forum-img" src="https://2img.net/i/fa/empty.gif"><!--
+ Description --><div class="forum_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis sit amet felis nec porttitor. In hac habitasse platea dictumst. Aenean eu augue pharetra eros ornare pretium eleifend vel nisi. Aliquam lobortis turpis a dignissim consequat. Duis auctor mauris enim, dignissim posuere elit ullamcorper in. Fusce neque arcu, faucibus a tristique eu, eleifend vel ligula. Nunc sodales viverra nibh quis convallis. Vestibulum molestie gravida ligula vel accumsan. Nam at malesuada libero.<br></div><div class="forum_lastpost-avatar lastpostavatar"><!--
+ Avatar du dernier posteur --><img loading="lazy" src="https://sig.grumpybumpers.com/host/mikazukiyo.gif" alt="testmikazuki Mikazukiyo" style="max-width: 250px; max-height: 400px"></div><!--
+ Conteneur dernier posteur --><div class="forum_lastpost lastpost"><span><!--
+ Dernier sujet --><a href="/t8-presentation-de" title="Présentation de  " class="lastpost_link">Présentation de ...</a><br><!--
+ Auteur -->Lun 27 Fév 2023 - 12:26<br><strong><a href="/u2" class="gensmall">MikaLaTesteuse</a></strong>&nbsp;<a href="/t8-presentation-de#16" class="last-post-icon"><img src="https://2img.net/i/fa/modernbb/icon_topic_latest.png" alt="Voir le dernier message" title="Voir le dernier message" loading="lazy"></a></span></div><div class="forum_details"><!--
+ Liens de sous-forum --><span id="subforum"><a href="/f7-sousforum1" title="" class="gensmall">sousforum1</a>, <a href="/f8-sousforum2" title="" class="gensmall">sousforum2</a>, <a href="/f9-sousforum3" title="" class="gensmall">sousforum3</a></span></div></div><!--
+ Fin affichage d'un forum --><!-- Affichage d'un forum --><div class="forum_row row"><!--
+ Titre forum --><div style="width: 100%; margin-bottom: 10px;"><a href="/f1-votre-1er-forum" class="forumtitle">Votre 1er forum</a><!--
+ Compteur sujets et message --><span class="forum_stats">6 Sujets&nbsp; • &nbsp;14 Messages</span></div><!--
+ Image forum : nouveau, rien, verrouillé --><img class="forum-img" src="https://2img.net/i/fa/empty.gif"><!--
+ Description --><div class="forum_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis sit amet felis nec porttitor. In hac habitasse platea dictumst. Aenean eu augue pharetra eros ornare pretium eleifend vel nisi. Aliquam lobortis turpis a dignissim consequat. Duis auctor mauris enim, dignissim posuere elit ullamcorper in. Fusce neque arcu, faucibus a tristique eu, eleifend vel ligula. Nunc sodales viverra nibh quis convallis. Vestibulum molestie gravida ligula vel accumsan. Nam at malesuada libero.<br></div><div class="forum_lastpost-avatar lastpostavatar"><!--
+ Avatar du dernier posteur --><img loading="lazy" src="https://sig.grumpybumpers.com/host/mikazukiyo.gif" alt="testmikazuki Mikazukiyo" style="max-width: 250px; max-height: 400px"></div><!--
+ Conteneur dernier posteur --><div class="forum_lastpost lastpost"><span><!--
+ Dernier sujet --><a href="/t8-presentation-de" title="Présentation de  " class="lastpost_link">Présentation de ...</a><br><!--
+ Auteur -->Lun 27 Fév 2023 - 12:26<br><strong><a href="/u2" class="gensmall">MikaLaTesteuse</a></strong>&nbsp;<a href="/t8-presentation-de#16" class="last-post-icon"><img src="https://2img.net/i/fa/modernbb/icon_topic_latest.png" alt="Voir le dernier message" title="Voir le dernier message" loading="lazy"></a></span></div><div class="forum_details"><!--
+ Liens de sous-forum --><span id="subforum"><a href="/f7-sousforum1" title="" class="gensmall">sousforum1</a>, <a href="/f8-sousforum2" title="" class="gensmall">sousforum2</a>, <a href="/f9-sousforum3" title="" class="gensmall">sousforum3</a></span></div></div><!--
+ Fin affichage d'un forum --></div>     </div><!--
+ Fin liste des forums --></div>
+
+</div>
+  
+  <div style="margin: auto;display: flex;justify-content: center;">
+  <div class="qeel_footer">
+  
+  <div class="image_footer"></div>
+    <div class="conteneur_footer bg"></div>
+ <div class="conteneur_footer"><div class="connexion_footer newmember"><div style="display: flex;align-items: center;gap: 50px;"><span id="lastuser_avatar"><img loading="lazy" src="https://i.imgur.com/uIoCsgT.png" alt="Shinichi" style="max-width: 250px; max-height: 350px"><img loading="lazy" src="https://i.imgur.com/uIoCsgT.png" alt="Shinichi" style="max-width: 250px; max-height: 350px"></span><span id="newest_user">On dit bienvenue à  <strong><a href="/u5"><span style="color:#15D48E"><strong>Shinichi</strong></span></a></strong></span></div><div class="stat_footer"><span> <strong>46</strong> messages</span><span> <strong>5</strong> membres enregistrés</span></div></div><div class="title_footer last">il y a 24h</div><div class="connexion_footer lastco"><br>Utilisateurs enregistrés : <a><span style="color:#00B0F0"><strong>Le Prophète</strong></span></a><br></div><div class="title_footer co">Les connectés</div><div class="connexion_footer nowco"> <a href="/u1"><span style="color:#00B0F0"><strong>Le Prophète</strong></span></a></div></div>
+  <div class="groupes_footer"><a class="groups">Alpha</a> <a class="groups">Alpha</a> <a class="groups">Alpha</a> <a class="groups">Alpha</a></div>
+  </div></div>
+  
+  <div class="container" style="width:1200px; margin: 100px auto;"><div class="contmsg"><!--
+ Titre du poste --><h1 class="page-title"><span style="background: var(--text);color: var(--neutral);padding: 10px 20px;">test titre</span></h1><!--
+ Liste des participants du sujet --><div class="poster-list posts-users-list"><div title="Kalei Yinren" class="poster" style="--poster-avatar:url('https://i.imgur.com/OIXaCFX.png')"><a href="/u2"></a></div><div title="Le Prophète" class="poster" style="--poster-avatar:url('https://i.imgur.com/25N9MUZ.png')"><a href="/u1"></a></div><div class="poster-count">2 participants</div></div><!--
+ Sondage (template : viewtopic_poll_ballot /// viewtopic_poll_result) --><!--
+ Affichage d'un message --><div id="9"></div><div class="post post_row post--9" id="p9"><!--
+ Conteneur informations du message--><div class="post_details"><span class="post_date"><!--
+ Lien d'ancre vers le message --><a href="/t2-test-titre#9">test titre</a>&nbsp;<!--
+ Date du message --><time>Sam 11 Fév 2023 - 23:54</time></span><!--
+ Boutons d'édition de message --><ul class="profile-icons "><li><a class="fa-mention" title="Mentionner Le Prophète">@</a></li><li><a href="/post?p=9&amp;mode=quote">Citer</a></li><li><a href="/post?p=9&amp;mode=editpost">Editer</a></li><li><a href="/post?p=9&amp;tid=f635dde70981e74c36b1badb378e0c76&amp;mode=delete">Supprimer</a></li><li><a href="/modcp?mode=ip&amp;p=9&amp;t=2&amp;tid=f635dde70981e74c36b1badb378e0c76">IP</a></li></ul><!--
+ Conteneur du bouton like --><div class="like_button"><!--
+ Bouton "j'aime" --><button class="rep-button fa_liked" data-href="/vote_like?cvf%5B0%5D=66ad6d3dc2862c17b80c68dc87628259&amp;cvf%5B1%5D=a59cf21ab8354c2890f64c523aa2e990&amp;l_vote=9&amp;like_val=3" data-href-rm="/vote_like?cvf%5B0%5D=12d8a6c44d16a4fffa9cb54d229ec1b5&amp;cvf%5B1%5D=0ac9be9ce817ce70b6c7c7d79917afd3&amp;l_vote=9&amp;like_val=5"><!--
+ Texte "j'aime" --><span class="like_text">J'aime</span><!--
+ Compte des "j'aime" --><span class="rep-nb">1</span></button></div><!--
+ Fin du bouton like --></div><!--
+ Fin détails --><div class="strucmsg"><!--
+ Colonne de profil --><div class="post_profile" id="profile9"><center><!--
+ Rang --><span class="post_rank">Admin<br><!--
+ Textuel --><!--
+ Image --></span><br></center><!--
+ Avatar --><div class="post_avatar"><div><div class="tophov"> <span class="iconmood"><img src="https://64.media.tumblr.com/fb2b27e2aab95f41b4f900885d562936/b8511ffa76f21224-1c/s540x810/27c07ef2dec924188ba1a0029842cb689131c8db.gif" alt="icon profil" title="icon profil"></span><span class="champ_tier">Tier III</span></div><div class="midhov"><div><span class="champ_origine">Aglaé c'est cathartique-catastrophique, un mystère qui s'abreuve des contrastes de ses expressions : entre ses sourires pour lesquels ont lui offrirait le monde entier, cette illusion la plus parfaite qu'elle parvenait à vous insuffler : que vous étiez la personne la plus importante à ses yeux. Mais il demeurait évident que vous ne serez jamais plus qu'un autre. Parce qu'il n'y avait qu'&lt;u2&gt;une évidence&lt;/u2&gt; : le chagrin lui collait si bien à la peau. Lorsque les sonorités de sa voix tournaient comme un vieux disque rayé d'une mélodie oubliée, lorsque son fantôme hantait encore ses rêves et que dans son souffle effleurait sa peau.    </span></div></div>    </div><a href="/u1"><img loading="lazy" src="https://i.imgur.com/25N9MUZ.png" alt="Le Prophète" style="max-width: 250px; max-height: 350px"></a></div><br><!--
+ En ligne --><center><div class=" online"><!--
+ VOIR CSS .online --> online<!--
+ Textuel --></div></center><br><div class="post_userinfo"><!--
+ Champs de profil --><div class="user_field field-icon-profil2"><!--
+ Label d'un champs de profil --><span class="field_label">icon profil2: </span><!--
+ Contenu d'un champs de profil --><span class="field_content"><img src="https://64.media.tumblr.com/fb2b27e2aab95f41b4f900885d562936/b8511ffa76f21224-1c/s540x810/27c07ef2dec924188ba1a0029842cb689131c8db.gif" alt="icon profil" title="icon profil"></span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"> </span></div><div class="user_field field-icon-profil"><!--
+ Label d'un champs de profil --><span class="field_label">icon profil: </span><!--
+ Contenu d'un champs de profil --><span class="field_content"><img src="https://64.media.tumblr.com/c2f3ca2e13ed2ccf0a0c1bb36e242b07/6cbcb8cad317b372-88/s400x600/3f2f047d5d3c1af9e987b77fc74ba0057f8dd606.png" alt="test titre 3f2f047d5d3c1af9e987b77fc74ba0057f8dd606" title=""></span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-description"><!--
+ Label d'un champs de profil --><span class="field_label">description: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">Aglaé c'est cathartique-catastrophique, un mystère qui s'abreuve des contrastes de ses expressions : entre ses sourires pour lesquels ont lui offrirait le monde entier, c<i><font color="#f4c8d1">ette illusion la plus parfaite qu'elle parvenait à vous insuffler</font></i> : que vous étiez la personne la plus importante à ses yeux. Mais il demeurait évident que vous ne serez jamais plus qu'un autre. Parce qu'il n'y avait qu'&lt;u2&gt;une évidence&lt;/u2&gt; : le chagrin lui collait si bien à la peau. Lorsque les sonorités de sa voix tournaient comme un vieux disque rayé d'une mélodie oubliée, lorsque <i><font color="#f4c8d1">son fantôme</font></i> hantait encore ses rêves et que dans son souffle effleurait sa peau.    </span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-argent"><!--
+ Label d'un champs de profil --><span class="field_label">argent: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">100$</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-citation-de-votre-choix"><!--
+ Label d'un champs de profil --><span class="field_label">citation de votre choix: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">c'est silencieux, noyé dans les eaux troubles de sa mémoire, vulgaire masque d'apparat qui ne luit plus d'aucun éclat.</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-tier"><!--
+ Label d'un champs de profil --><span class="field_label">Tier: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">Tier III</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"> </span></div><div class="user_field field-tw"><!--
+ Label d'un champs de profil --><span class="field_label">tw: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">aucuns.</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-pronoms"><!--
+ Label d'un champs de profil --><span class="field_label">pronoms: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">Elle.</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-feat-credits"><!--
+ Label d'un champs de profil --><span class="field_label">feat, crédits: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">Ft. Makima (csm)</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-runes-actives"><!--
+ Label d'un champs de profil --><span class="field_label">runes actives: </span><!--
+ Contenu d'un champs de profil --><span class="field_content"><table class="tagrose"><tbody><tr><td><strong>humain</strong></td></tr></tbody></table>, <table class="tagvert"><tbody><tr><td><strong>humain</strong></td></tr></tbody></table>, <table class="tagbeige"><tbody><tr><td><strong>humain</strong></td></tr></tbody></table>, <table class="tagjaune"><tbody><tr><td><strong>humain</strong></td></tr></tbody></table>, <table class="tagbleu"><tbody><tr><td><strong>humain</strong></td></tr></tbody></table>, <table class="tagmauve"><tbody><tr><td><strong>humain</strong></td></tr></tbody></table></span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-messages"><!--
+ Label d'un champs de profil --><span class="field_label">Messages: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">27</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-date-dinscription"><!--
+ Label d'un champs de profil --><span class="field_label">Date d'inscription: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">27/01/2023</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-points"><!--
+ Label d'un champs de profil --><span class="field_label">Points: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">74</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-allegeance"><!--
+ Label d'un champs de profil --><span class="field_label">Allégeance: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">ton seum</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><!--
+ Fin de champs de profil --><!--
+ Champs de profil de la feuille de personnage --></div><br><!--
+ Lien de contact --><div class="profil_contact"><a href="/u1" class="profile-icon" title="Voir le profil de l'utilisateur">Profil</a> &nbsp;<!--
+ Profil --><a href="/privmsg?mode=post&amp;u=1" class="profile-icon" title="Envoyer un message privé">MP</a> &nbsp;<!--
+ MP --><!--
+ Autre contact--><a href="https://mikazukitest.forumactif.com" title="Visiter le site web de l'utilisateur" target="_blank" rel="nofollow">Autre</a><!--
+ Autre champs de contact --></div></div><!--
+ Fin colonne profil -->
+    <div class="lateprofile" id="lateprofile"><div class="latpost_profile" id="profile19"><div class="cont_late"><!--
+ Pseudo --><span class="post_pseudo">
+      <a><span style="color:#00B0F0"><strong>Aglaé Amara</strong></span></a></span>
+<div style="display: flex;flex-direction: column;align-items: center;gap: 8px;"><span class="champ_pronom">Elle.</span><span class="champ_tw">aucuns.</span><span class="champ_feat">Ft. Makima (csm)</span></div><div class="iconpost"><img src="https://64.media.tumblr.com/c2f3ca2e13ed2ccf0a0c1bb36e242b07/6cbcb8cad317b372-88/s400x600/3f2f047d5d3c1af9e987b77fc74ba0057f8dd606.png" alt="test titre 3f2f047d5d3c1af9e987b77fc74ba0057f8dd606" title=""></div></div><div class="slider"><div class="tabs"><div class="tab-button tab-button2">⌄</div></div><div class="contenta"><div class="content-item slide-out">Messages : <span class="champ_msg">27</span><br>Exp : <span class="champ_xp">74</span><br>Argent : <span class="champ_money">100$</span><br>Date d'inscription : <span class="champ_inscr">27/01/2023</span></div><div class="content-item slide-in"><span class="champ_runes"><table class="tagrose"><tbody><tr><td><strong>Apôtre de la Mort</strong></td></tr></tbody></table>, <table class="tagvert"><tbody><tr><td><strong>Yeux Mystiques d'Enchantement</strong></td></tr></tbody></table>, <table class="tagbeige"><tbody><tr><td><strong>Anti-Noble Phantasme</strong></td></tr></tbody></table> <table class="tagvert"><tbody><tr><td><strong>Maniement de la Hache</strong></td></tr></tbody></table> <table class="tagjaune"><tbody><tr><td><strong>Faiblesse-Thaumaturgie Sacrée</strong></td></tr></tbody></table> <table class="tagbleu"><tbody><tr><td><strong>Régénération Exceptionnelle</strong></td></tr></tbody></table> <table class="tagmauve"><tbody><tr><td><strong>Cryomancie</strong></td></tr></tbody></table><table class="tagrose"><tbody><tr><td><strong>Maudit</strong></td></tr></tbody></table></span></div></div></div></div></div>
+    <div class="container wombat" id="wombat"><div id="DiscordLike"><div class="iconpost"><img src="https://64.media.tumblr.com/c2f3ca2e13ed2ccf0a0c1bb36e242b07/6cbcb8cad317b372-88/s400x600/3f2f047d5d3c1af9e987b77fc74ba0057f8dd606.png" alt="Voir un profil - Le Prophète 3f2f047d5d3c1af9e987b77fc74ba0057f8dd606" title=""></div><div class="discord_gimmik"><div style="margin-top: -65px;margin-bottom: 20px;"><span class="iconmood"><div class="field_uneditable"><img src="https://64.media.tumblr.com/fb2b27e2aab95f41b4f900885d562936/b8511ffa76f21224-1c/s540x810/27c07ef2dec924188ba1a0029842cb689131c8db.gif" alt="icon profil" title="icon profil"></div></span></div><div class="discord_inline"><h1 class="pseudodiscord"><span style="color:#00B0F0"><strong>Le Prophète</strong></span></h1><br> joué par Kylas <br><br><div class="quote">Aglaé c'est cathartique-catastrophique, un mystère qui s'abreuve des contrastes de ses expressions : entre ses sourires pour lesquels ont lui offrirait le monde entier, c<i><font color="#f4c8d1">ette illusion la plus parfaite qu'elle parvenait à vous insuffler</font></i> : que vous étiez la personne la plus importante à ses yeux. Mais il demeurait évident que vous ne serez jamais plus qu'un autre. Parce qu'il n'y avait qu'&lt;u2&gt;une évidence&lt;/u2&gt; : le chagrin lui collait si bien à la peau. Lorsque les sonorités de sa voix tournaient comme un vieux disque rayé d'une mélodie oubliée, lorsque <i><font color="#f4c8d1">son fantôme</font></i> hantait encore ses rêves et que dans son souffle effleurait sa peau.    </div></div><div class="discord_gimmik_bottom"><strong>mes triggers :</strong><span>aucuns.</span></div><div class="discord_gimmik_date"><span><strong>membre depuis</strong><br><discord_info>27/01/2023</discord_info></span><span><strong>dernière connexion</strong><br><discord_info2>Aujourd'hui à 17:09</discord_info2></span></div><div class="discord_gimmik_player"><strong>écoute sur spotify</strong><div style="margin-top:10px;display: flex;gap: 10px;align-items: center;"><img src="https://i.imgur.com/CLpn3h9.jpg" class="songcover"><div class="infossong"><strong class="titre">SEVEN (FEAT.LATTO)</strong><br><span class="artiste">de jungkook, Latto</span></div></div><div class="fakeplayer"><div style="padding:10px;"><a href="https://open.spotify.com/track/1l6fmXCPtTpJrKpYBe9bBw?si=41095c3904874532" class="lienMusique">écouter sur spotify</a></div><div></div></div></div><div class="discord_gimmik_tags"><strong>Tags :</strong><span class="champ_runes"><table class="tagrose"><tbody><tr><td><strong>humain</strong></td></tr></tbody></table>, <table class="tagvert"><tbody><tr><td><strong>humain</strong></td></tr></tbody></table>, <table class="tagbeige"><tbody><tr><td><strong>humain</strong></td></tr></tbody></table>, <table class="tagrouge"><tbody><tr><td><strong>humain</strong></td></tr></tbody></table>, <table class="tagbleu"><tbody><tr><td><strong>humain</strong></td></tr></tbody></table>, <table class="tagmauve"><tbody><tr><td><strong>humain</strong></td></tr></tbody></table></span></div><div class="discord_gimmik_links"><a>messages</a><a>sujets</a><a>fiche de présentation</a></div></div></div></div>
+    
+    
+    <!--
+ Contenu du message --><div class="post_message postbody content"><div><span style="font-size:25px;wonf-weight:bolder;">Clique sur le pseudo....</span></div><!--
+ Signature --></div><!--
+ Fin du contenu du message --></div></div><div id="27"></div><div class="post post_row post--27" id="p27"><!--
+ Conteneur informations du message--><div class="post_details"><span class="post_date"><!--
+ Lien d'ancre vers le message --><a href="/t2-test-titre#27">Re: test titre</a>&nbsp;<!--
+ Date du message --><time>Jeu 1 Juin 2023 - 13:53</time></span><!--
+ Boutons d'édition de message --><ul class="profile-icons "><li><a class="fa-mention" title="Mentionner Kalei Yinren">@</a></li><li><a href="/post?p=27&amp;mode=quote">Citer</a></li><li><a href="/post?p=27&amp;mode=editpost">Editer</a></li><li><a href="/post?p=27&amp;tid=f635dde70981e74c36b1badb378e0c76&amp;mode=delete">Supprimer</a></li><li><a href="/modcp?mode=ip&amp;p=27&amp;t=2&amp;tid=f635dde70981e74c36b1badb378e0c76">IP</a></li></ul><!--
+ Conteneur du bouton like --><div class="like_button"><!--
+ Bouton "j'aime" --><button class="rep-button fa_like" data-href="/vote_like?cvf%5B0%5D=8dbe6b0685df52d4d4acec6e7004d7f4&amp;cvf%5B1%5D=d39dd804870fd12b31d6109b1770a672&amp;l_vote=27&amp;like_val=3" data-href-rm="/vote_like?cvf%5B0%5D=2d5e60e5406302d0273d6664d0f12a7f&amp;cvf%5B1%5D=83e50573eb9a6f4cddc04656ed7e1667&amp;l_vote=27&amp;like_val=5"><!--
+ Texte "j'aime" --><span class="like_text">J'aime</span><!--
+ Compte des "j'aime" --><span class="rep-nb" style="display:none;"></span></button></div><!--
+ Fin du bouton like --></div><!--
+ Fin détails --><div class="strucmsg"><!--
+ Colonne de profil --><div class="post_profile" id="profile27"><center><!--
+ Rang --><span class="post_rank"><!--
+ Textuel --><!--
+ Image --></span><br></center><!--
+ Avatar --><div class="post_avatar"><div><div class="tophov"> <span class="iconmood"><img src="https://64.media.tumblr.com/a517521cbfe116865d281770c4c4326e/1e535ad3f6760cd2-23/s400x600/70884f1eeb85eb9e0284260d15873baaf15b33cf.gif" alt="icon profil" title="icon profil"></span><span class="champ_tier">Tier 0</span></div><div class="midhov"><div><span class="champ_origine">Il était comme la flamme d’une rage qui n’avait plus de forêts à brûler, les larmes d’un chagrin qui n'avait plus de sillages où se déverser. C'était le trop sans le moins, la tempête sans le calme rédempteur. Sa rage, elle bourdonnait jusqu’au fond de ses entrailles. Reine des abeilles qui propageait sa haine en piqûres démentielles de son esprit ; elle l’intoxiquait, le rendait incandescent de sentiments mauvais qu’il était incapable de se débarasser, haine de lui, haine de l’autre, haine du monde qui lui avait appris à respirer avant de l’étouffer et de tout lui dérober</span></div></div>    </div><a><img loading="lazy" src="https://i.imgur.com/OIXaCFX.png" alt="Kalei Yinren" style="max-width: 250px; max-height: 350px"></a></div><br><!--
+ En ligne --><center><div class=""><!--
+ VOIR CSS .online --><!--
+ Textuel --></div></center><br><div class="post_userinfo"><!--
+ Champs de profil --><div class="user_field field-icon-profil2"><!--
+ Label d'un champs de profil --><span class="field_label">icon profil2: </span><!--
+ Contenu d'un champs de profil --><span class="field_content"><img src="https://64.media.tumblr.com/a517521cbfe116865d281770c4c4326e/1e535ad3f6760cd2-23/s400x600/70884f1eeb85eb9e0284260d15873baaf15b33cf.gif" alt="icon profil" title="icon profil"></span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"> </span></div><div class="user_field field-icon-profil"><!--
+ Label d'un champs de profil --><span class="field_label">icon profil: </span><!--
+ Contenu d'un champs de profil --><span class="field_content"><img src="https://64.media.tumblr.com/c11f30dac354a4d85f49cc214b83bda8/3e5746797e68038b-96/s400x600/c039d900657c16dbbd3cd3b0df16aefb65eac2a5.jpg" alt="test titre C039d900657c16dbbd3cd3b0df16aefb65eac2a5" title=""></span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-description"><!--
+ Label d'un champs de profil --><span class="field_label">description: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">Il était comme la flamme d’une rage qui n’avait plus de forêts à brûler, les larmes d’un chagrin qui n'avait plus de sillages où se déverser. C'était le trop sans le moins, la tempête sans le calme rédempteur. Sa rage, elle bourdonnait jusqu’au fond de ses entrailles. Reine des abeilles qui propageait sa haine en piqûres démentielles de son esprit ; elle l’intoxiquait, le rendait incandescent de sentiments mauvais qu’il était incapable de se débarasser, haine de lui, haine de l’autre, haine du monde qui lui avait appris à respirer avant de l’étouffer et de tout lui dérober</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-argent"><!--
+ Label d'un champs de profil --><span class="field_label">argent: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">100$</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-citation-de-votre-choix"><!--
+ Label d'un champs de profil --><span class="field_label">citation de votre choix: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">tous mes coups de cœur ont des goûts de pleurs, les feux d'artifice ressortent loin des lueurs.</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-tier"><!--
+ Label d'un champs de profil --><span class="field_label">Tier: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">Tier 0</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"> </span></div><div class="user_field field-tw"><!--
+ Label d'un champs de profil --><span class="field_label">tw: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">violence</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-pronoms"><!--
+ Label d'un champs de profil --><span class="field_label">pronoms: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">il/lui</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-feat-credits"><!--
+ Label d'un champs de profil --><span class="field_label">feat, crédits: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">emet selch</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-runes-actives"><!--
+ Label d'un champs de profil --><span class="field_label">runes actives: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">test de runes</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-messages"><!--
+ Label d'un champs de profil --><span class="field_label">Messages: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">12</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-date-dinscription"><!--
+ Label d'un champs de profil --><span class="field_label">Date d'inscription: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">27/01/2023</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-points"><!--
+ Label d'un champs de profil --><span class="field_label">Points: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">16</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><div class="user_field field-allegeance"><!--
+ Label d'un champs de profil --><span class="field_label">Allégeance: </span><!--
+ Contenu d'un champs de profil --><span class="field_content">lui-même</span><!--
+ Séparateur entre champs de profil -->                      <span class="field_separator"><br></span></div><!--
+ Fin de champs de profil --><!--
+ Champs de profil de la feuille de personnage --></div><br><!--
+ Lien de contact --><div class="profil_contact"><a class="profile-icon" title="Voir le profil de l'utilisateur">Profil</a> &nbsp;<!--
+ Profil --><a href="/privmsg?mode=post&amp;u=2" class="profile-icon" title="Envoyer un message privé">MP</a> &nbsp;<!--
+ MP --><!--
+ Autre contact--></div></div><!--
+ Fin colonne profil -->
+    <div class="lateprofile" id="lateprofile"><div class="latpost_profile" id="profile19"><div class="cont_late"><!--
+ Pseudo --><span class="post_pseudo"><a><span style="color:#F0E678"><strong>Yuei Mio</strong></span></a></span><div style="display: flex;flex-direction: column;align-items: center;gap: 8px;"><span class="champ_pronom">il/lui</span><span class="champ_tw">violence</span><span class="champ_feat">Aki Hayakawa (csm)</span></div><div class="iconpost"><img src="https://64.media.tumblr.com/c11f30dac354a4d85f49cc214b83bda8/3e5746797e68038b-96/s400x600/c039d900657c16dbbd3cd3b0df16aefb65eac2a5.jpg" alt="test titre C039d900657c16dbbd3cd3b0df16aefb65eac2a5" title=""></div></div><div class="slider"><div class="tabs"><div class="tab-button tab-button2">⌄</div></div><div class="contenta"><div class="content-item slide-out">Messages : <span class="champ_msg">12</span><br>Exp : <span class="champ_xp">16</span><br>Argent : <span class="champ_money">100$</span><br>Date d'inscription : <span class="champ_inscr">27/01/2023</span></div><div class="content-item slide-in"><span class="champ_runes"><table class="tagbeige"><tbody><tr><td><strong>H̷̹̀u̷̝͗m̷͓͘ä̷̬ǐ̷̩n̷̯͛</strong></td></tr></tbody></table><table class="tagbeige"><tbody><tr><td><strong>Suceur de Sang</strong></td></tr></tbody></table><table class="tagbeige"><tbody><tr><td><strong>Magus</strong></td></tr></tbody></table><table class="tagbeige"><tbody><tr><td><strong>Créature Naturelle</strong></td></tr></tbody></table><table class="tagjaune"><tbody><tr><td><strong>Thaumaturge</strong></td></tr></tbody></table><table class="tagjaune"><tbody><tr><td><strong>Physique Commun</strong></td></tr></tbody></table><table class="tagbleu"><tbody><tr><td><strong>Circuits Magiques</strong></td></tr></tbody></table><table class="tagbleu"><tbody><tr><td><strong>Thaumaturgie Traditionnelle</strong></td></tr></tbody></table><table class="tagbleu"><tbody><tr><td><strong>Sorcellerie</strong></td></tr></tbody></table><table class="tagbleu"><tbody><tr><td><strong>Magie Noire</strong></td></tr></tbody></table><table class="tagbleu"><tbody><tr><td><strong>Terre</strong></td></tr></tbody></table><table class="tagbleu"><tbody><tr><td><strong>Primal Sentience</strong></td></tr></tbody></table><table class="tagmauve"><tbody><tr><td><strong>Mystère Traditionnel</strong></td></tr></tbody></table><table class="tagmauve"><tbody><tr><td><strong>Maudite</strong></td></tr></tbody></table><table class="tagmauve"><tbody><tr><td><strong>Sang Impie</strong></td></tr></tbody></table><br>
+</span></div></div></div></div></div><div class="container wombat" id="wombat"><div id="DiscordLike"><div class="iconpost"><img src="https://64.media.tumblr.com/c11f30dac354a4d85f49cc214b83bda8/3e5746797e68038b-96/s400x600/c039d900657c16dbbd3cd3b0df16aefb65eac2a5.jpg" alt="Voir un profil - Kalei Yinren C039d900657c16dbbd3cd3b0df16aefb65eac2a5" title=""></div><div class="discord_gimmik"><div style="margin-top: -65px;margin-bottom: 20px;"><span class="iconmood"><div class="field_uneditable"><img src="https://64.media.tumblr.com/a517521cbfe116865d281770c4c4326e/1e535ad3f6760cd2-23/s400x600/70884f1eeb85eb9e0284260d15873baaf15b33cf.gif" alt="icon profil" title="icon profil"></div></span></div><div class="discord_inline"><h1 class="pseudodiscord"><span style="color:#F0E678"><strong>Kalei Yinren</strong></span></h1><br> joué par Kylas <br><br><div class="quote">Il était comme la flamme d’une rage qui n’avait plus de forêts à brûler, les larmes d’un chagrin qui n'avait plus de sillages où se déverser. C'était le trop sans le moins, la tempête sans le calme rédempteur. Sa rage, elle bourdonnait jusqu’au fond de ses entrailles. Reine des abeilles qui propageait sa haine en piqûres démentielles de son esprit ; elle l’intoxiquait, le rendait incandescent de sentiments mauvais qu’il était incapable de se débarasser, haine de lui, haine de l’autre, haine du monde qui lui avait appris à respirer avant de l’étouffer et de tout lui dérober</div></div><div class="discord_gimmik_bottom"><strong>mes triggers :</strong><span>violence</span></div><div class="discord_gimmik_date"><span><strong>membre depuis</strong><br><discord_info>27/01/2023</discord_info></span><span><strong>dernière connexion</strong><br><discord_info2>Mer 19 Juil 2023 - 15:30</discord_info2></span></div><div class="discord_gimmik_player"><strong>écoute sur spotify</strong><div style="margin-top:10px;display: flex;gap: 10px;align-items: center;"><img src="https://i.imgur.com/gA66sby.jpg" class="songcover"><div class="infossong"><strong class="titre">Coeur sous cadenas</strong><br><span class="artiste">de Nuit Incolore</span></div></div><div class="fakeplayer"><div style="padding:10px;"><a href="https://open.spotify.com/track/1l6fmXCPtTpJrKpYBe9bBw?si=41095c3904874532" class="lienMusique">écouter sur spotify</a></div><div></div></div></div><div class="discord_gimmik_tags"><strong>Tags :</strong><span class="champ_runes">test de runes</span></div><div class="discord_gimmik_links"><a>messages</a><a>sujets</a><a>fiche de présentation</a></div></div></div>
+      </div>
+    
+    <!--
+
+ Contenu du message --><div class="post_message postbody content"><div>coucou!</div><!--
+ Signature --></div><!--
+ Fin du contenu du message --></div></div><!--
+ Fin affichage d'un message --></div></div>
+</body>
