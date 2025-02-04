@@ -69,6 +69,9 @@ body {
     color: var(--textColor);
   font-family:'Inter';
     margin: 0 !important;
+  width: 625px;
+   margin:auto;
+  
 }
 
 .hashtagheader {
@@ -111,6 +114,7 @@ display: flex;
       z-index: 99;
   position: relative;
   backdrop-filter: brightness(0.5) blur(3px);
+  
 }
 .stage {
     z-index: 90;
@@ -496,7 +500,7 @@ height: 100vh;
   .PA_TKT {
 margin: 100px auto;
     height: 450px;
-    width:1000px;
+    width:625px;
     font-family: 'Inter';
     position: relative;
 background: var(--neutralDark);
