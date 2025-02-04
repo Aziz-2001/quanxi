@@ -69,7 +69,7 @@ body {
     color: var(--textColor);
   font-family:'Inter';
     margin: 0 !important;
-  width: 625px;
+  width: 756px;
    margin:auto;
   
 }
@@ -500,7 +500,7 @@ height: 100vh;
   .PA_TKT {
 margin: 100px auto;
     height: 450px;
-    width:625px;
+    width:756px;
     font-family: 'Inter';
     position: relative;
 background: var(--neutralDark);
@@ -727,21 +727,21 @@ input#tkt_tabpa1:checked ~ .divf {
 input#tkt_tabpa2:checked ~ .divf {
   background-position: 28% 100%;
     background-size: cover;
-      background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://64.media.tumblr.com/c5ea51347317bf0303ebf5f829a268a1/58e2be794de651dc-ca/s500x750/13cb80dc6d9fb55ad830e6b4ea31349b8b8f0855.gif);
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://freeimghost.net/images/2025/02/04/7fb271f9f66a66eb89d5ac9ec5072cde.jpg);
       background-size: cover;
   margin-left: 0px;
   background-position: 35% 30%;
 }
 
 input#tkt_tabpa3:checked ~ .divf {
-      background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://64.media.tumblr.com/7c3d08e1ea2e25cf7bc01936e3cd78b8/ff1a29277b6438ad-99/s540x810/c45ec4b8a21b6d60c5a562767df15b3d83d45635.gif);
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://freeimghost.net/images/2025/02/04/2d11c7fcc6d96d6169b0723d4fd8446e.jpg);
     background-size: cover;
   margin-left: 0px;
 background-position: 90% 20%;
 }
 
 input#tkt_tabpa4:checked ~ .divf {
-      background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://64.media.tumblr.com/482a4bd679f855bdb4f3e40b02adcbee/e04e1f5e3e872521-9b/s400x600/50eeea26fbd3ac4c4e1828f57707b3d7aa0faf1d.gif);
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://freeimghost.net/images/2025/02/04/452e8631ac64d28e2e5d33bba4248f1e.jpg);
   background-size: cover;
   margin-left: 0px;
     background-position: 50% 20%;
@@ -1064,8 +1064,8 @@ margin-top: -2px;
 }
 
 #c1 .img_caat {
-  background-image: url(https://i.imgur.com/ZA3t0Cn.png);
-  margin-left: 30vw;
+  background-image: url(https://freeimghost.net/images/2025/02/04/Picsart_25-02-04_06-21-37-780.png);
+  margin-left: 400px;
 }
 
 #c2 .img_caat {
@@ -1133,7 +1133,7 @@ grid-column: 2;}
       grid-row: 1/3;
     grid-column: 1/3;
   z-index: 20;
-    display:grid;
+    
 grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -1334,3 +1334,4 @@ font-size: var(--little-size);
 .forum-titre:hover {
   
 }
+
